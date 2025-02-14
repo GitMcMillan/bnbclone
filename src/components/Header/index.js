@@ -6,7 +6,11 @@ const Header = () => {
   return (
     <div className="navbar">
       <img src={logo} alt="logo" className="navbar-logo" />
-      <div className="search-bar"> </div>
+      <div className="search-bar">
+        <div className="search-bar-text">Any where</div>
+        <div className="search-bar-text">Any week</div>
+        <div className="search-bar-text2">Add Guests</div>
+      </div>
       <div className="profile-container"></div>
     </div>
   );
