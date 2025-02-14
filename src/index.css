@@ -2,7 +2,8 @@
   --black: #000;
   --grey: #ddd;
   --white: #ffffff;
-  /* --dfont-grey: ; */
+  --black-transparent: rgba(0, 0, 0, 0.08); /* 8% opacity black */
+  --theme: #ff385c;
 }
 
 body {
