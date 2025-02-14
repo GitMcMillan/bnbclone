@@ -4,6 +4,7 @@
   --white: #ffffff;
   --black-transparent: rgba(0, 0, 0, 0.08); /* 8% opacity black */
   --theme: #ff385c;
+  --light-grey: #f7f7f7;
 }
 
 body {
