@@ -97,3 +97,9 @@
   background-color: var(--light-grey);
   cursor: pointer;
 }
+
+.menu-items {
+  padding: 0.5rem 1rem !important;
+  font-size: 0.8rem;
+  color: var(--font-grey);
+}
