@@ -4,6 +4,8 @@ import "./styles.css";
 import SearchRoundedIcon from "@mui/icons-material/SearchRounded";
 import LanguageRoundedIcon from "@mui/icons-material/LanguageRounded";
 import BasicMenu from "./ProfileMenu";
+import SimpleBottomNavigation from "./BottomNav";
+import MobileSearchBar from "../MobileSearchBar";
 
 const Header = () => {
   return (
@@ -26,6 +28,8 @@ const Header = () => {
           <BasicMenu />
         </div>
       </div>
+      <MobileSearchBar />
+      <SimpleBottomNavigation />
     </div>
   );
 };

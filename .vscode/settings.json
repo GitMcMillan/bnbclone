@@ -1,0 +1,42 @@
+{
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "support.type.property-name.css",
+        "settings": { "foreground": "#3e44f7" } // Property name color
+      },
+      {
+        "scope": "support.constant.property-value.css",
+        "settings": { "foreground": "#f0ea78" } // Property value color
+      },
+      {
+        "scope": "variable.other.css",
+        "settings": { "foreground": "#4EC9B0" } // CSS variable color
+      },
+      {
+        "scope": [
+          "entity.other.attribute-name.class.css",
+          "entity.other.attribute-name.id.css",
+          "entity.name.tag.css"
+        ],
+        "settings": { "foreground": "#f0ea78" } // Class, ID, and tag selectors
+      },
+      {
+        "scope": [
+          "entity.other.pseudo-class.css",
+          "entity.other.pseudo-element.css",
+          "support.pseudo-class.css",
+          "support.pseudo-element.css"
+        ],
+        "settings": { "foreground": "#f0ea78" } // Pseudo-classes and pseudo-elements
+      },
+      {
+        "scope": [
+          "meta.selector.css entity.other.attribute-name.class.css",
+          "meta.selector.css entity.other.pseudo-class.css"
+        ],
+        "settings": { "foreground": "#f0ea78" } // Ensures :hover in .class:hover is the same color
+      }
+    ]
+  }
+}
