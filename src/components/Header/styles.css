@@ -109,10 +109,20 @@
 }
 
 @media only screen and (max-width: 800px) {
-  .navbar-logo,
-  .profile-container,
-  .search-bar {
+  .search-bar,
+  .airbnb-your-home {
     display: none;
+  }
+
+  .navbar {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .profile-menu-flex {
+    position: fixed;
+    top: 0.5rem;
+    right: 1.5rem;
   }
 
   .bottom-nav {
