@@ -11,7 +11,7 @@ const Filter = () => {
       {links.map((item, i) => (
         <div
           key={i}
-          className={`links-box ${i == selectedFilter && "selected-box"}`}
+          className={`links-box ${i === selectedFilter && "selected-box"}`}
           onClick={() => {
             console.log("Selecting key", i);
             setSelectedFilter(i);
@@ -19,7 +19,9 @@ const Filter = () => {
         >
           <img src={item.imgSrc} alt={"props"} className="links-img" />
           <p
-            className={`links-label ${i == selectedFilter && "selected-label"}`}
+            className={`links-label ${
+              i === selectedFilter && "selected-label"
+            }`}
           >
             {item.label}
           </p>
