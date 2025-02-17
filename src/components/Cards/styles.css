@@ -1,13 +1,32 @@
 .cards-flex {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 1rem 3rem;
+  gap: 1rem;
+}
+
+.cards-box {
+  margin: 1rem;
 }
 
 .card-img {
   height: 300px;
   width: 300px;
   object-fit: cover;
+  border-radius: 1rem;
+}
+
+.card-info-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
 }
